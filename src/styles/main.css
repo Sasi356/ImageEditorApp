@@ -1,0 +1,189 @@
+
+.maincontainer{ 
+    display: flex;
+    height: 655px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background: linear-gradient(360deg,rgba(10,10,10,1.000)10%,rgb(20, 20, 20)80%);
+}
+
+.allimages{
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 10px;
+    
+}
+.imagedisplay{
+    display:flex;
+    border: 1px solid #e7e8ea ;
+    text-align: center;
+    margin: 20px;
+
+    width: 1140px;
+    height: 600px;
+}
+.imageview{
+    border: 1px solid #e7e8ea ;
+    width: 900px;
+    height: 600px;
+    background:#e7e8ea;
+
+}
+.imageedit{
+    
+    border: 1px solid #e7e8ea ;
+    width: 240px;
+    height: 600px;
+
+}
+.imagecontainer{
+    overflow: scroll;
+    border: 1px solid #e7e8ea ;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 600px;
+
+}
+.popupbox{
+    background: #e7e8ea;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.submit{
+    margin: 10px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 10px;
+}
+
+.form{
+    margin: 15px;
+    margin-left: 10px;
+   
+}
+
+.navbar{
+    justify-content: space-between;
+    display : flex;
+    height:50px;
+    color: "black";
+    /*border:  0.1px solid #757474;*/
+    background:  linear-gradient(90deg,rgba(10,10,10,1.000)0%,rgb(5, 5, 5)150%);
+    /*background: linear-gradient(180deg,rgba(0,0,0,1.000)0%,rgba(30,30,30,1.000)80%);*/
+    padding: 10px;
+    
+    font-family: Arial;
+
+}
+
+.title{
+    color: #2240c8;
+    text-shadow: 2px -2px 0 #0a0a0a, -2px 4px 2px #010101, -4px 6px 2px #0b0b0b;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 60px;
+    font-family: "Netflix Sans","Helvetica Neue","Segoe UI","Roboto","Ubuntu","sans-serif";
+
+}
+
+
+.uploadbtn{
+    font-weight: 800;
+    right: 100px;
+    border: 1.5px solid #2240c8;
+    border-radius: 4px;
+    background: #2240c8;;
+    
+    font-size: 10px;
+    justify-content: center;
+    font-family: "Netflix Sans","Helvetica Neue","Segoe UI","Roboto","Ubuntu","sans-serif";
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin: 10px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: relative;
+    visibility: visible;
+    color: white;
+    transition: 0.8s;
+} 
+.uploadbtn:hover{
+    color: white; 
+    transform: scale(1.1);
+    opacity: 1;
+    background-color:#2240c8;
+}
+
+.uploadbtn::before{
+    content:"";
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 0%;
+    background: #8f0505;
+    z-index:-1;
+    transition: 0.8s;
+    /*transform: translate(-50%,-50%);*/
+
+}
+.imagecontainerheader{
+    align-items: flex-start;
+    color: #e7e8ea;
+   
+}
+
+
+.inputangle{
+    margin-top: 70px;
+    
+}
+
+.cropp{
+    margin-top: 50px;
+}
+.imagebtn{
+    margin: 7px;
+    font-weight: 800;
+    right: 100px;
+    border: 1.5px solid #2240c8;
+    border-radius: 4px;
+    background: #2240c8;;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family: "Netflix Sans","Helvetica Neue","Segoe UI","Roboto","Ubuntu","sans-serif";
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    overflow: hidden;
+    color: white;
+    transition: 0.8s;
+} 
+.imagebtn:hover{
+    color: white; 
+    transform: scale(1.01);
+    opacity: 1;
+    background-color:#162773;
+}
+
+.imageview{
+    overflow: scroll;
+}
+
+.resize{
+    height: 20px;
+}
